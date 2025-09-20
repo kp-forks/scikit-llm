@@ -5,7 +5,7 @@ from skllm.models._base.classifier import (
     MultiLabelMixin as _MultiLabelMixin,
 )
 from typing import Optional
-from model_constants import TEXT_BISON_MODEL
+from skllm.model_constants import TEXT_BISON_MODEL
 
 
 class ZeroShotVertexClassifier(

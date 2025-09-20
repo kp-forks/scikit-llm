@@ -1,7 +1,7 @@
 from skllm.models._base.tagger import ExplainableNER as _ExplainableNER
 from skllm.llm.gpt.mixin import GPTTextCompletionMixin as _GPTTextCompletionMixin
 from typing import Optional, Dict
-from model_constants import OPENAI_GPT_MODEL
+from skllm.model_constants import OPENAI_GPT_MODEL
 
 
 class GPTExplainableNER(_ExplainableNER, _GPTTextCompletionMixin):

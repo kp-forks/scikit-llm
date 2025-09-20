@@ -5,7 +5,7 @@ from skllm.llm.vertex.mixin import (
 from skllm.models._base.text2text import (
     BaseTunableText2TextModel as _BaseTunableText2TextModel,
 )
-from model_constants import TEXT_BISON_MODEL
+from skllm.model_constants import TEXT_BISON_MODEL
 
 
 class TunableVertexText2Text(

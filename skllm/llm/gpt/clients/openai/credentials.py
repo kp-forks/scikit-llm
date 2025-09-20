@@ -5,7 +5,7 @@ from openai import OpenAI, AzureOpenAI
 from skllm.config import SKLLMConfig as _Config
 
 
-def set_credentials(key: str, org: str) -> None:
+def set_credentials(key: str, org: str) -> OpenAI:
     """Set the OpenAI key and organization.
 
     Parameters
@@ -20,7 +20,7 @@ def set_credentials(key: str, org: str) -> None:
     return client
 
 
-def set_azure_credentials(key: str, org: str) -> None:
+def set_azure_credentials(key: str, org: str) -> AzureOpenAI:
     """Sets OpenAI credentials for Azure.
 
     Parameters

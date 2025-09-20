@@ -2,7 +2,7 @@ from skllm.llm.gpt.clients.openai.credentials import set_credentials, set_azure_
 from skllm.utils import retry
 import openai
 from openai import OpenAI
-from model_constants import OPENAI_EMBEDDING_MODEL
+from skllm.model_constants import OPENAI_EMBEDDING_MODEL
 
 
 @retry(max_retries=3)

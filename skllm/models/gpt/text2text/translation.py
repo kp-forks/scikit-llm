@@ -1,7 +1,7 @@
 from skllm.models._base.text2text import BaseTranslator as _BaseTranslator
 from skllm.llm.gpt.mixin import GPTTextCompletionMixin as _GPTTextCompletionMixin
 from typing import Optional
-from model_constants import OPENAI_GPT_MODEL
+from skllm.model_constants import OPENAI_GPT_MODEL
 
 
 class GPTTranslator(_BaseTranslator, _GPTTextCompletionMixin):

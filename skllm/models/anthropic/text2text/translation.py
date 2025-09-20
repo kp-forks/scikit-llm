@@ -1,7 +1,7 @@
 from skllm.models._base.text2text import BaseTranslator as _BaseTranslator
 from skllm.llm.anthropic.mixin import ClaudeTextCompletionMixin as _ClaudeTextCompletionMixin
 from typing import Optional
-from model_constants import ANTHROPIC_CLAUDE_MODEL
+from skllm.model_constants import ANTHROPIC_CLAUDE_MODEL
 
 
 class ClaudeTranslator(_BaseTranslator, _ClaudeTextCompletionMixin):

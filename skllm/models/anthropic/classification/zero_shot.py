@@ -6,7 +6,7 @@ from skllm.models._base.classifier import (
 )
 from skllm.llm.anthropic.mixin import ClaudeClassifierMixin as _ClaudeClassifierMixin
 from typing import Optional
-from model_constants import ANTHROPIC_CLAUDE_MODEL
+from skllm.model_constants import ANTHROPIC_CLAUDE_MODEL
 
 
 class ZeroShotClaudeClassifier(

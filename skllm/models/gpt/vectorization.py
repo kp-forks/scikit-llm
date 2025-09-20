@@ -1,7 +1,7 @@
 from skllm.models._base.vectorizer import BaseVectorizer as _BaseVectorizer
 from skllm.llm.gpt.mixin import GPTEmbeddingMixin as _GPTEmbeddingMixin
 from typing import Optional
-from model_constants import OPENAI_EMBEDDING_MODEL
+from skllm.model_constants import OPENAI_EMBEDDING_MODEL
 
 
 class GPTVectorizer(_BaseVectorizer, _GPTEmbeddingMixin):

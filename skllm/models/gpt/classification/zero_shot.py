@@ -6,7 +6,7 @@ from skllm.models._base.classifier import (
 )
 from skllm.llm.gpt.mixin import GPTClassifierMixin as _GPTClassifierMixin
 from typing import Optional
-from model_constants import OPENAI_GPT_MODEL
+from skllm.model_constants import OPENAI_GPT_MODEL
 
 
 class ZeroShotGPTClassifier(

@@ -9,7 +9,7 @@ from skllm.models.gpt.vectorization import GPTVectorizer
 from skllm.models._base.vectorizer import BaseVectorizer
 from skllm.memory.base import IndexConstructor
 from typing import Optional
-from model_constants import OPENAI_GPT_MODEL, OPENAI_EMBEDDING_MODEL
+from skllm.model_constants import OPENAI_GPT_MODEL, OPENAI_EMBEDDING_MODEL
 
 
 class FewShotGPTClassifier(BaseFewShotClassifier, GPTClassifierMixin, SingleLabelMixin):

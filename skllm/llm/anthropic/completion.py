@@ -1,7 +1,7 @@
 from typing import Dict, List, Optional
 from skllm.llm.anthropic.credentials import set_credentials
 from skllm.utils import retry
-from model_constants import ANTHROPIC_CLAUDE_MODEL
+from skllm.model_constants import ANTHROPIC_CLAUDE_MODEL
 
 @retry(max_retries=3)
 def get_chat_completion(

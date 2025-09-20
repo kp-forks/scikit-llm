@@ -1,6 +1,6 @@
 from skllm.llm.gpt.clients.openai.embedding import get_embedding as _oai_get_embedding
 from skllm.llm.gpt.utils import split_to_api_and_model
-from model_constants import OPENAI_EMBEDDING_MODEL
+from skllm.model_constants import OPENAI_EMBEDDING_MODEL
 
 
 def get_embedding(

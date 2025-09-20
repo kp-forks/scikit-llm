@@ -1,7 +1,7 @@
 from skllm.models._base.tagger import ExplainableNER as _ExplainableNER
 from skllm.llm.anthropic.mixin import ClaudeTextCompletionMixin as _ClaudeTextCompletionMixin
 from typing import Optional, Dict
-from model_constants import ANTHROPIC_CLAUDE_MODEL
+from skllm.model_constants import ANTHROPIC_CLAUDE_MODEL
 
 
 class AnthropicExplainableNER(_ExplainableNER, _ClaudeTextCompletionMixin):

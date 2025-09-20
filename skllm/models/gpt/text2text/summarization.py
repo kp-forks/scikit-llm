@@ -1,7 +1,7 @@
 from skllm.models._base.text2text import BaseSummarizer as _BaseSummarizer
 from skllm.llm.gpt.mixin import GPTTextCompletionMixin as _GPTTextCompletionMixin
 from typing import Optional
-from model_constants import OPENAI_GPT_MODEL
+from skllm.model_constants import OPENAI_GPT_MODEL
 
 
 class GPTSummarizer(_BaseSummarizer, _GPTTextCompletionMixin):

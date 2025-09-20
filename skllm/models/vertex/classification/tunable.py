@@ -8,7 +8,7 @@ from skllm.llm.vertex.mixin import (
     VertexTunableMixin as _VertexTunableMixin,
 )
 from typing import Optional
-from model_constants import TEXT_BISON_MODEL
+from skllm.model_constants import TEXT_BISON_MODEL
 
 
 class _TunableClassifier(

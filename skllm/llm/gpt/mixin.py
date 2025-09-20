@@ -21,7 +21,7 @@ from skllm.utils import extract_json_key
 import numpy as np
 from tqdm import tqdm
 import json
-from model_constants import OPENAI_GPT_TUNABLE_MODEL
+from skllm.model_constants import OPENAI_GPT_TUNABLE_MODEL
 
 
 def construct_message(role: str, content: str) -> dict:

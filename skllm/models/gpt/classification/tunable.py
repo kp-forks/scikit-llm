@@ -8,7 +8,7 @@ from skllm.models._base.classifier import (
     MultiLabelMixin as _MultiLabelMixin,
 )
 from typing import Optional
-from model_constants import OPENAI_GPT_TUNABLE_MODEL
+from skllm.model_constants import OPENAI_GPT_TUNABLE_MODEL
 
 
 class _TunableClassifier(_BaseTunableClassifier, _GPTClassifierMixin, _GPTTunableMixin):

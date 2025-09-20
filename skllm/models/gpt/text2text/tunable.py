@@ -6,7 +6,7 @@ from skllm.models._base.text2text import (
     BaseTunableText2TextModel as _BaseTunableText2TextModel,
 )
 from typing import Optional
-from model_constants import OPENAI_GPT_TUNABLE_MODEL
+from skllm.model_constants import OPENAI_GPT_TUNABLE_MODEL
 
 
 class TunableGPTText2Text(

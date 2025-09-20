@@ -1,7 +1,7 @@
 from skllm.models._base.text2text import BaseSummarizer as _BaseSummarizer
 from skllm.llm.anthropic.mixin import ClaudeTextCompletionMixin as _ClaudeTextCompletionMixin
 from typing import Optional
-from model_constants import ANTHROPIC_CLAUDE_MODEL
+from skllm.model_constants import ANTHROPIC_CLAUDE_MODEL
 
 
 class ClaudeSummarizer(_BaseSummarizer, _ClaudeTextCompletionMixin):
